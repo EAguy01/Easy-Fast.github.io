@@ -375,10 +375,10 @@ clear: both;
        position: relative;
        display: inline-block;
      }
-     .image-container img {
+     .Zadnasnimka{
        display: block;
        width: 100%;
-       height: 550px;
+       height: 700px;
      }
      
      .overlayText {
@@ -398,30 +398,29 @@ clear: both;
      .Favv{
       
       display: flex;
-       top: 35%; 
+       top: 40%; 
        left: 4%; 
-       max-width: px;
+       
       
       
      }
      #Fav1{
        width: 50px; 
        height: 50px; 
-       margin-left: 50px;
+       margin-left: 60px;
        border-radius: 50%; 
      
        
        
      }
-    
      #Fav2{
-       
+      
+      position:absolute;
        width: 50px; 
        height: 50px; 
-        margin-top: 0px;
+        margin-left: 170px;
        
-         border-radius: 300px;
-    
+         border-radius:300px;
          
      }
      #Fav3{
@@ -429,22 +428,15 @@ clear: both;
        width: 50px; 
        height: 50px; 
          border-radius: 300px;
-        
+         margin-left: -60px;
          
      }
      
-     /*
-     hr{
-       width: 100%;
-         height: 2px;
-         background-color: black;
-         clear: both;
-         margin: 0%;
-     }*/
+ 
      
      .krai{
        width:100%;
-             height: 650px;
+             height: 500px;
              background-color:rgba(231, 170, 110, 0.607);
              border:1px none black;
              margin:0;
@@ -454,7 +446,7 @@ clear: both;
      .logo{
       
        
-       font-size: 20px;
+       font-size: 12px;
        position:relative;
        text-align: center;
       margin-top:50px;
@@ -468,7 +460,7 @@ clear: both;
      }
      .contact{
         clear: both;
-       font-size: 20px;
+       font-size: 8px;
        position:relative;
       margin-top:70px;
        left: 30%;
@@ -492,15 +484,16 @@ clear: both;
 
      #page{
       
-      margin-left: 2px;
-      margin-top: 200px;
+      margin-left: -50px;
+      margin-top: 130px;
       
       }
       #recepta{
         cursor:pointer;
-        width:100px;
+        width:200px;
         letter-spacing: 5px;
         clear: both;
+        
       }
        #panel, #recepta {
         padding: 20px;
@@ -510,17 +503,17 @@ clear: both;
         clear: both;
         border-radius: 3%;
       font-weight: bold;
-      font-size: 10px;
+      font-size: 15px;
       
       }
       
        #panel {
         padding: 50px;
         display: none;
-        height: 100px;
-        width:40px;
+        height: 130px;
+        width:140px;
         line-height: 2;
-        font-size: 5px;
+        font-size: 7px;
       
       }
 
